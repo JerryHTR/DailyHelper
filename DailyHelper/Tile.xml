@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<tile>
+  <visual branding="nameAndLogo">
+  
+    <binding template="TileSmall" hint-textStacking="center" branding="none">
+      <text hint-wrap="true">Title</text>
+    </binding>
+    
+    <binding template="TileMedium">
+      <text hint-style="subtitle">Title</text>
+      <text hint-style="baseSubtle" hint-wrap="true">完成作业</text>
+    </binding>
+
+    <binding template="TileWide">
+      <text hint-style="title">Title</text>
+      <text hint-style="subtitle" hint-wrap="true">完成作业</text>
+    </binding>
+
+    <binding template="TileLarge">
+      <text hint-style="title">Title</text>
+      <text hint-style="subtitle" hint-wrap="true">完成作业</text>
+      <image src="Assets/Todo.jpg"></image>
+    </binding>
+
+  </visual>
+</tile>
